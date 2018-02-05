@@ -109,7 +109,7 @@ AdminLTE是一个很棒的单纯的由 HTML 和 CSS 构建的后台模板，在�
           </header>
     ```
 - slidebar.blade.php
-  <pre>
+  ```html
   <aside class="main-sidebar">
       <!-- sidebar: style can be found in sidebar.less -->
       <section class="sidebar">
@@ -309,11 +309,11 @@ AdminLTE是一个很棒的单纯的由 HTML 和 CSS 构建的后台模板，在�
       </section>
       <!-- /.sidebar -->
     </aside>
-  </pre>
+  ```
 
 - footer.blade.php
 
-  <pre>
+  ```html
   <footer class="main-footer">
       <div class="pull-right hidden-xs">
         <b>Version</b> 2.4.0
@@ -321,11 +321,11 @@ AdminLTE是一个很棒的单纯的由 HTML 和 CSS 构建的后台模板，在�
       <strong>Copyright &copy; 2014-2016 <a href="http:xgs888.top">小谢博客</a>.</strong> All rights
       reserved.
     </footer>
-  </pre>
+  ```
 
 - 然后在创建一个默认的模板 app.blade.php   在/views/layouts//app.blade.php
 
-  <pre>
+  ```html
   <html>
   <head>
     <meta charset="utf-8">
@@ -423,5 +423,5 @@ AdminLTE是一个很棒的单纯的由 HTML 和 CSS 构建的后台模板，在�
   <script src="{{asset('/dist/js/demo.js')}}"></script>
   </body>
   </html>
-  </pre>
+ ```
 
