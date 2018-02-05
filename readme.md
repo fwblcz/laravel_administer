@@ -17,8 +17,7 @@ AdminLTE是一个很棒的单纯的由 HTML 和 CSS 构建的后台模板，在�
 - 把下载过来的模板bower_components,build,dist三个目录放到laravel目录下的public目录下面
 - 在resources/views下创建common目录分别创建footer.blade.php header.blader.php,slidebar.php
 - header.blade.php如下
-
-    <pre>
+  、、、
         <header class="main-header">
             <!-- Logo -->
             <a href="../../index2.html" class="logo">
@@ -108,7 +107,7 @@ AdminLTE是一个很棒的单纯的由 HTML 和 CSS 构建的后台模板，在�
               </div>
             </nav>
           </header>
-    </pre>
+    、、、
 
 - slidebar.blade.php
   <pre>
