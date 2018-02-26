@@ -215,8 +215,8 @@
                 <!-- User Account: style can be found in dropdown.less -->
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <img src="{{ $user->avatar }}" class="user-image">
-                        <span class="hidden-xs">{{ $user->username }}</span>
+                        <img src="{{ \Illuminate\Support\Facades\Auth::user()->avatar }}" class="user-image">
+                        <span class="hidden-xs">{{ \Illuminate\Support\Facades\Auth::user()->username }}</span>
                     </a>
                     <ul class="dropdown-menu">
                         <!-- User image -->
@@ -224,8 +224,8 @@
                             <img src="/adminlte/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                             <p>
-                                {{ $user->username }}
-                                <small>注册于: {{ $user->c_time }}</small>
+                                {{ \Illuminate\Support\Facades\Auth::user()->username }}
+                                <small>注册于: {{ date('Y-m-d H:i:s',\Illuminate\Support\Facades\Auth::user()->c_time) }}</small>
                             </p>
                         </li>
                         <li class="user-footer">

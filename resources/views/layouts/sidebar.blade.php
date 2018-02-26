@@ -12,7 +12,7 @@
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li class="active"><a href="index.html"><i class="fa fa-circle-o">用户管理</i></a></li>
+                    <li class="active"><a href="{{ route('users.index') }}"><i class="fa fa-circle-o">用户管理</i></a></li>
                     <li><a href="index2.html"><i class="fa fa-circle-o"></i> 角色管理</a></li>
                     <li><a href="index2.html"><i class="fa fa-circle-o"></i> 权限管理</a></li>
                 </ul>
